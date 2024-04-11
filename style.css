@@ -1,0 +1,337 @@
+/*  This is the styling CSS file for index.html
+Name: Harman Singh Sandhu
+      Student ID: 215629967
+      Creation of Style CSS
+*/
+
+/*Set HTML and Body Tags */
+html, body {
+    background-color: #d0cccc ;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* For spacing webpage and center function*/
+.space {
+    padding-top:10px;
+}
+.space2 {
+    padding-top:30px;
+}
+
+.center{
+    display:inline-block;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+/*********Navigation Bar***********/
+
+/*Logo inside Navigation Bar*/
+  /*For Navigation*/
+.navbar ul{
+    display: block;
+    max-width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #43484D;
+}
+/* Bar Size*/
+.navbar li {
+    float: left;
+    padding: 10px; 
+}
+
+/* Tab Colour and Orientation*/
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Hover to turn tab/button Red*/
+.navbar li a:hover{
+    background-color: #ed1d24e0;
+    }
+
+
+/****Content Page******/
+.container {
+    background-image: url("Contour.png");
+    width: auto; height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+    overflow:hidden; 
+    border-radius:10px;
+
+}
+
+/**** Left Column of Box. *****/
+.left-column {
+    float: left;
+    width: 30%;
+    overflow:hidden; 
+}
+
+/****** Profile Pic, Name******/
+.profilepic{
+    padding-top: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 5px rgb(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    margin: 40px;
+    background-color:#ffffff85;   
+  }
+/****** Social Icons ******/
+.icons{
+    padding:5%;
+    float: center;
+}
+/*** Extra padding to space email from field***/
+.email {
+    padding-top: 10px;
+}
+
+/***** Right Column For Item Description*****/
+.right-column{
+    width: 65%;
+    padding-top: 60px;
+    padding-left: 5px;
+    display: inline-block;
+    margin:30px;
+    overflow:hidden; 
+}
+
+/*Hello Title*/
+.item-desc h1 {
+    font-weight: 200px;
+    font-size: 50px;
+    color: #43484D;
+    letter-spacing: -2px;
+    text-align: left;
+}
+
+/*** Qoute***/
+.item-desc h2 {
+    font-weight: 100;
+    font-size: 27px;
+    color: #43484D;
+    letter-spacing: -2px;
+}
+/**BIO**/
+.bio p{
+    padding-top: 20px;
+    border-top: 2px solid #a8a8a8e8;
+    font-weight: 100px;
+    font-size: 20px;
+    color: #43484D;
+}
+
+/** Resume and Coverletter**/
+.app button{
+    border-radius: 10px;
+    padding: 10px 35px;
+    text-decoration:none;
+    outline:none;
+    background-color: #ed1d24e0;
+    width: 20%;
+    font-size: 14px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
+/*Hover Effect*/
+.app button:hover{
+    opacity: 0.7;
+  }
+/* Banner Highlighting Work Experience*/
+.Banner {
+    background-image: url("Contour.png");
+    width: auto; height: auto;
+    /*max-width: 1200px;*/
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow:hidden; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200px;
+    font-size: 24px;
+    color: #43484D;
+    letter-spacing: -2px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* For setting up outline for Work Experience boxes */
+.Experience {
+    background-image: url("Contour.png");
+    width: auto; height: auto;
+    /*max-width: 1200px;*/
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow:hidden; 
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px; 
+}
+/* Work Experience Job Name */
+.Experience h2 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #43484D;
+    letter-spacing: -2px;
+    text-align: center;
+}
+/* Work Experience Title and dates */
+.Experience p{
+    font-weight: 100px;
+    font-size: 16px;
+    color: #43484D;
+}
+
+/* Scotiabank list padding*/
+.right-column2{
+    width: 60%;
+    padding-top: 50px;
+    padding-left: 5px;
+    display: inline-block;
+    overflow:hidden; 
+}
+/* BRUNELLO list padding*/
+.right-column3{
+    width: 60%;
+    padding-top: 90px;
+    padding-left: 5px;
+    display: inline-block;
+    overflow:hidden; 
+}
+
+/* SMCP list padding*/
+.right-column4{
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 5px;
+    display: inline-block;
+    overflow:hidden; 
+}
+
+/* Box for Job Card*/
+.jobpic{
+    padding-top: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 5px rgb(0, 0, 0, 0.2);
+    max-width: 300px;
+    max-height: 600px;
+    text-align: center;
+    margin: 40px;
+    background-color:#ffffff85;   
+  }
+/*For font in job card boxes*/
+  .bio li{
+    list-style-type:"◈";
+    padding-top: 5px;
+    font-weight: 100px;
+    font-size: 18px;
+    color: #43484D;
+}
+
+/*****CONTACT ME *****/
+.Contactme {
+    background-image: url("Contour.png");
+    width: auto; height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow:hidden; 
+    border-radius: 20px;
+}
+
+/*Let's Talk Title*/
+.Contactme  h2{
+    font-weight: 400;
+    font-size: 50px;
+    color: #43484D;
+    letter-spacing: -2px;
+    text-align: center;
+
+}
+/*Contact back box*/
+.contactback {    
+    max-width: 900px;
+    max-height: 700px;
+    text-align: left;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:0%;
+    margin-bottom:5%;
+    background-color:#a8a8a8c5;
+    border-radius: 8%;
+}
+
+/* User input for Text boxs for contact*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* User input to submit form*/
+  input[type=submit] {
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+    text-decoration:none;
+    outline:none;
+    background-color: #ed1d24e0;
+    width: 20%;
+    font-size: 14px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  /* Gives button effect*/
+  input[type=submit]:hover {
+    opacity: 0.7;
+  }
+
+  /*Footer for copyrights*/
+  .footer {
+    display: block;
+    max-width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: #43484D;
+  }
+
+  .footer h2{
+    font-weight: 100px;
+    font-size: 16px;
+    background-color: #43484D;
+    text-align: center;
+
+  }
+ 
+
+
+
+
